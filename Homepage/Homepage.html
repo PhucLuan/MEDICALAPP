@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Homepage.css">
+    <script src="./Homepage.js"></script>
+
+    <link rel="stylesheet" href="../Glide/glide.core.min.css">
+    <script src="../Glide/glide.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- jQuery and JS bundle w/ Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="bgTop">
+        <div class="container">
+            <div class="addAndNotify">
+                <div class="address"><svg class="iconADD" width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M12.166 8.94C12.696 7.867 13 6.862 13 6A5 5 0 0 0 3 6c0 .862.305 1.867.834 2.94.524 1.062 1.234 2.12 1.96 3.07A31.481 31.481 0 0 0 8 14.58l.208-.22a31.493 31.493 0 0 0 1.998-2.35c.726-.95 1.436-2.008 1.96-3.07zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                    <path fill-rule="evenodd" d="M8 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                  </svg>
+                  <div class="dropdown">
+                    <button class="btn dropdown-toggle" style="color: white;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Địa điểm
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Hà nội</a>
+                      <a class="dropdown-item" href="#">Thành phố HCM</a>
+                      <a class="dropdown-item" href="#">Đà Nẵng</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="Notify"><img src="./img/notify.png" alt=""></div>
+            </div>
+            <form class="form-inline my-2 my-lg-0">
+                <input style="height: 44px;box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.08);
+                border-radius: 8px;margin-top: 20px" class="form-control mr-sm-2" type="search" placeholder="    Tìm kiếm bác sĩ, bệnh viện..." aria-label="Search">
+              </form>
+        </div>
+    </div>
+    <div class="container">
+        <div class="glide banner">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide"><img src="./img/banner.png" class="img-fluid" alt=""></li>
+                <li class="glide__slide"><img src="./img/banner.png" class="img-fluid" alt=""></li>
+                <li class="glide__slide"><img src="./img/banner.png" class="img-fluid" alt=""></li>
+                <li class="glide__slide"><img src="./img/banner.png" class="img-fluid" alt=""></li>
+              </ul>
+            </div>
+        </div>
+
+        <div class="glide typeService">
+            <div class="glide__track" data-glide-el="track">
+              <ul class="glide__slides">
+                <li class="glide__slide">
+                    <div class="contentTypeService">
+                        <img src="./img/tongQuat.png" class="img-fluid img-typeService" alt="">
+                        <p class="text-center">Tổng quát</p>
+                    </div> 
+                </li>
+                <li class="glide__slide">
+                    <div class="contentTypeService">
+                        <img src="./img/nhaKhoa.png" class="img-fluid img-typeService" alt="">
+                        <p class="text-center">Nha Khoa</p>
+                    </div> 
+                </li>
+                <li class="glide__slide">
+                    <div class="contentTypeService">
+                        <img src="./img/timMach.png" class="img-fluid img-typeService" alt="">
+                        <p class="text-center">Tim Mạch</p>
+                    </div> 
+                </li>
+                <li class="glide__slide">
+                    <div class="contentTypeService">
+                        <img src="./img/khamMat.png" class="img-fluid img-typeService" alt="">
+                        <p class="text-center">Khám Mắt</p>
+                    </div> 
+                </li>
+                <li class="glide__slide">
+                    <div class="contentTypeService">
+                        <img src="./img/ungThu.png" class="img-fluid img-typeService" alt="">
+                        <p class="text-center">Ung Thư</p>
+                    </div> 
+                </li>
+                <li class="glide__slide">
+                    <div class="contentTypeService">
+                        <img src="./img/treEm.png" class="img-fluid img-typeService" alt="">
+                        <p class="text-center">Trẻ Em</p>
+                    </div> 
+                </li>
+              </ul>
+            </div>
+        </div>
+
+        <div class="service">
+            <div class="contentService">
+                <p>Dịch vụ</p>
+                <a href="">Xem tất cả ></a>
+            </div>
+            <div class="glide bannerService">
+                <div class="glide__track" data-glide-el="track">
+                  <ul class="glide__slides">
+                    <li class="glide__slide"><img src="./img/serVice1.png" class="img-fluid" alt=""></li>
+                    <li class="glide__slide"><img src="./img/serVice2.png" class="img-fluid" alt=""></li>
+                    <li class="glide__slide"><img src="./img/serVice1.png" class="img-fluid" alt=""></li>
+                    <li class="glide__slide"><img src="./img/serVice2.png" class="img-fluid" alt=""></li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="hotCarosel doctor">
+            <div class="contenthotCarosel">
+                <p>Top bác sĩ</p>
+                <a href="">Xem tất cả ></a>
+            </div>
+
+            <div class="glide bannerhotDoctor">
+                <div class="glide__track" data-glide-el="track">
+                  <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div class="detailhotCarosel">
+                            <div class="inforhotCarosel">
+                                <b>BS Hùng</b>
+                                <p>CK ung thư</p>
+                                <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg> 1.2K</p>
+                                <p>Kinh nghiệm</p>
+                                <b>10 năm</b>
+                            </div>
+                            <img src="./img/docTor1.png" class="img-fluid" alt="">
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="detailhotCarosel">
+                            <div class="inforhotCarosel">
+                                <b>BS Thư</b>
+                                <p>CK Tim mạch</p>
+                                <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg> 1K</p>
+                                <p>Kinh nghiệm</p>
+                                <b>8 năm</b>
+                            </div>
+                            <img src="./img/docTor2.png" class="img-fluid" alt="">
+                        </div>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="hotCarosel hospital">
+            <div class="contenthotCarosel">
+                <p>Top bác sĩ</p>
+                <a href="">Xem tất cả ></a>
+            </div>
+
+            <div class="glide bannerhotHospital">
+                <div class="glide__track" data-glide-el="track">
+                  <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div class="detailhotCarosel">
+                            <div class="inforhotCarosel">
+                                <b>Trung Tâm Y Khoa MEDIC</b>
+                                <p>254 Hòa Hảo, Quận 10</p>
+                                <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg> 2K</p>
+                            </div>
+                            <img src="./img/hospital1.png" class="img-fluid" alt="">
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="detailhotCarosel">
+                            <div class="inforhotCarosel">
+                                <b>Bệnh Viện Truyền máu Huyết học</b>
+                                <p>118 Hùng Vương, Quận 5</p>
+                                <p><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                                  </svg> 998</p>
+                            </div>
+                            <img src="./img/hospital2.png" class="img-fluid" alt="">
+                        </div>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="Blog">
+            <div class="contenthotCarosel">
+                <p>Cẩm nang sức khoẻ</p>
+                <a href="">Xem tất cả ></a>
+            </div>
+
+            <div class="glide bannerBlog">
+                <div class="glide__track" data-glide-el="track">
+                  <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div class="detailBlog">
+                            <img src="./img/blog1.png" class="img-fluid" alt="">
+                            <div class="inforhotCarosel">
+                                <b>Nguyên nhân của chán ăn?</b>
+                                <p>Cuộc sống hiện đại ngày nay, chứng chán ăn càng ngày phổ biến. Nguyên nhân nào khiến b...</p>
+                            </div>
+                            
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <div class="detailBlog">
+                            <img src="./img/blog2.png" class="img-fluid" alt="">
+                            <div class="inforhotCarosel">
+                                <b>Nguyên nhân của chán ăn?</b>
+                                <p>Cuộc sống hiện đại ngày nay, chứng chán ăn càng ngày phổ biến. Nguyên nhân nào khiến b...</p>
+                            </div>
+                        </div>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="navigation">
+            <a class="btnHome" href="#"><img src="./img/iconHome.png" alt=""></a>
+            <a class="btnMess"><img src="./img/iconMess.png" alt=""></a>
+            <a class="btnDoctor"><img src="./img/iconDoctor.png" alt=""></a>
+            <a class="btnCalendar"><img src="./img/iconCalendar.png" alt=""></a>
+            <a class="btnUser"><img src="./img/iconUser.png" alt=""></a>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+.address{
+    width: 153px;
+    height: 40px;
+    left: 15px;
+    top: 44px;
+
+    background: #63BD99;
+    border-radius: 50px;
+    display: flex;
+}
+.bgTop{
+    background-image: url(./img/Rectangle\ 639.png);
+    height: 199px;
+}
+.iconADD{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.addAndNotify{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.form-control{
+    background: url(./img/iconSearch.png) no-repeat scroll 7px 7px;
+    padding-left:30px;
+    padding-top: 10px;
+}
+.banner{
+    position: absolute;
+    top: -40px;
+}
+.img-typeService{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.typeService{
+    top: -20px;
+}
+.contentService,.contenthotCarosel{
+    display: flex;
+    justify-content: space-between;
+}
+.detailhotCarosel{
+    width: auto;
+    height: 140px;
+
+    background: #FFFFFF;
+    box-shadow: 0px -1px 20px rgba(0, 0, 0, 0.1);
+    /* border-radius: 10px; */
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px 10px 10px;
+}
+.detailhotCarosel:hover{
+    background: linear-gradient(270deg, #A45E4A 0%, #CB846F 100%);
+    color: white;
+    /* transform: translateY(-15px); */
+    height: 150px;
+    transition: 0.6s ease-out;
+}
+.inforhotCarosel > p{
+    margin-bottom: 0px;
+}
+p > svg{
+    color: #FFB107;
+}
+.detailBlog{
+    width: auto;
+    height: 250px;
+    border-radius: 10px 10px 10px 10px;
+}
+.detailBlog:hover{
+    background: linear-gradient(270deg, #A45E4A 0%, #CB846F 100%);
+    color: white;
+    /* transform: translateY(-15px); */
+    height: 260px;
+    transition: 0.6s ease-out;
+}
+.navigation{
+    display: flex;
+}
+.navigation > a{
+    width: 20%;
+    height: 50px;
+    background: white;
+    border: none;
+    text-align: center;
+}
