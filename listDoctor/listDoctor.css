@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+body{
+    height: 990px;
+}
 .bgTitle{
     height: 50px;
     background: #90D9BC;
@@ -69,4 +72,9 @@ p > svg{
     background: white;
     border: none;
     text-align: center;
+}
+.navMedical {
+    position: sticky;
+    margin-top: -474px;
+    top: 474px;
 }
