@@ -49,11 +49,10 @@ body{
 }
 .detailhotCarosel{
     width: auto;
-    height: 140px;
+    height: auto;
 
     background: #FFFFFF;
     box-shadow: 0px -1px 20px rgba(0, 0, 0, 0.1);
-    /* border-radius: 10px; */
     display: flex;
     justify-content: space-between;
     border-radius: 10px 10px 10px 10px;
@@ -61,7 +60,6 @@ body{
 .detailhotCarosel:hover{
     background: linear-gradient(270deg, #A45E4A 0%, #CB846F 100%);
     color: white;
-    /* transform: translateY(-15px); */
     height: 150px;
     transition: 0.6s ease-out;
 }
@@ -73,13 +71,14 @@ p > svg{
 }
 .detailBlog{
     width: auto;
-    height: 250px;
+    height: auto;
     border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px -1px 20px rgba(0, 0, 0, 0.1);
 }
 .detailBlog:hover{
-    background: linear-gradient(270deg, #A45E4A 0%, #CB846F 100%);
+    background: linear-gradient(180deg, #90D9BC 0%, #6DCCA6 100%);
+    box-shadow: 0px -1px 20px rgba(0, 0, 0, 0.1);
     color: white;
-    /* transform: translateY(-15px); */
     height: 260px;
     transition: 0.6s ease-out;
 }
