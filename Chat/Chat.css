@@ -1,0 +1,82 @@
+
+.form-control{
+    background: url(./img/iconSearch.png) no-repeat scroll 7px 7px;
+    padding-left:30px;
+    padding-top: 10px;
+}
+.bgTitle{
+    height: 160px;
+    background: #90D9BC;
+    color: white;
+    font-size: 18px;
+    line-height: 16px;
+}
+.containerTitle > .Title{
+    text-align: center;
+    padding-top: 17px;
+}
+.Title ~ a{
+    position: absolute;
+    top: 17px;
+    width: 12.5px;
+    height: 20px;
+}
+.boxChat{
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+    top: -30px;
+    background: #FFFFFF;
+    padding-top: 30px;
+}
+.containerChat b{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+}
+.content a{
+    color: black;
+}
+.content a:hover{
+    color: white;
+    text-decoration: none;
+}
+.listChat{
+    margin-top: 30px;
+}
+.grAvt{
+    display: flex;
+    justify-content: space-between;
+}
+.account{
+    display: flex;
+}
+.countNoti{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.countNoti b{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.grAvt:hover{
+    background: linear-gradient(180deg, #90D9BC 0%, #6DCCA6 100%);
+    border-radius: 15px 15px 15px 15px;
+    color: white;
+    transition: 0.4s ease-out;
+}
+.navigation{
+    display: flex;
+}
+.navigation > a{
+    width: 20%;
+    height: 50px;
+    background: white;
+    border: none;
+    text-align: center;
+}
+.navMedical {
+    margin-top: 246px;
+}

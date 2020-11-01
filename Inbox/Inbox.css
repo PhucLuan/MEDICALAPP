@@ -1,0 +1,65 @@
+.bgTitle{
+    height: 90px;
+    background: #90D9BC;
+    color: white;
+    font-size: 18px;
+    line-height: 16px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.containerTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grAvt{
+    display: flex;
+    align-items: center;
+}
+.cardChat{
+    height: 600px;
+}
+.chatBox{
+    position: relative;
+    top: -10px;
+    background: #FFFFFF;
+    border-radius: 15px 15px 0px 0px;
+    padding-top: 16px;
+}
+.day{
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #666666;
+}
+.messBoxRight{
+    width: 60%;
+    text-align: left;
+    float: right;
+}
+.messBoxRight > .contentChat{
+    background: #FFB98C;
+    border-radius: 6px;
+}
+.contentChat p{
+    margin-bottom: 0;
+}
+.messBoxRight > .time{
+    display: flex;
+    justify-content: flex-end;
+}
+.messBoxLeft{
+    width: 60%;
+    text-align: left;
+    float: left;
+    display: flex;
+}
+.grContent > .time{
+    display: flex;
+}
+.grContent > .contentChat{
+    background:#F1F0F5;
+    border-radius: 6px;
+}
