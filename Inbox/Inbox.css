@@ -63,3 +63,25 @@
     background:#F1F0F5;
     border-radius: 6px;
 }
+.form-control{
+    background: url(./img/iconSmile.png) no-repeat scroll 7px 7px;
+    padding-left:30px;
+    padding-top: 10px;
+}
+.form-inline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.voice{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #FFB98C;
+    padding-left: 14px;
+    padding-top: 5px;
+}
+.iconTag{
+    position: absolute;
+    left: 70%;
+}

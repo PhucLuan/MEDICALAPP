@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+}
+.groupAvt{
+    position: relative;
+}
+.groupAvt a{
+    position: absolute;
+    top: 22px;
+    left: 15px;
+}
+.love{
+    position: absolute;
+    top: 22px;
+    right: 15px;
+}
+.cardInfo{
+    background: #FFFFFF;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+    top: -20px;
+    padding-top: 30px;
+}
+.nameDoctor{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 16px;
+    color: #333333;
+}
+.major{
+    font-size: 16px;
+    line-height: 16px;
+    color: #666666;
+}
+.feedBack{
+    display: flex;
+    justify-content: space-between;
+}
+.star{
+    display: flex;
+    align-items: center;
+}
+.star p{
+    margin: 0;
+}
+.bi-star-fill{
+    color: #FFB107;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.phone,.videocall,.mess{
+    border-radius: 8px;
+    display: flex;
+    width: 120px;
+    height: 44px;
+    align-items: center;
+    color: #FFFFFF;
+    justify-content: space-between;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.phone p,.videocall p,.mess p{
+    margin: 0;
+}
+.phone{
+    background: #91D6FD;
+}
+.videocall{
+    background: #AB93FC;
+}
+.mess{
+    background: #FBC493;
+}
+.Title p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    color: #333333;
+}
+.stay,.time{
+    display: flex;
+    align-items: center;
+}
+.stay p,.time p{
+    margin-bottom: 0;
+    margin-left: 6px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+}
+.buttonBook{
+    position: relative;
+    top: -60px;
+}
+.buttonBook button{
+    width: 100%;
+    background: linear-gradient(270deg, #69CAA3 0%, #90D9BC 100%);
+    border-radius: 8px;
+    height: 44px;
+    border: none;
+    color: white;
+}
+.containerInfo{
+    height: 781px;
+}
+.book{
+    position: sticky;
+    margin-top: -400px;
+    top: 430px;
+}
+.modal-title__examination{
+    font-size: 20px;
+    line-height: 16px !important;
+    text-align: center;
+    color: #333333;
+    margin-left: auto;
+}
+.selectStay{
+    display: flex;
+    justify-content: space-between;
+}
+.stayBook{
+    width: 153px;
+    height: 65px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #FF9653;
+    text-align: center;
+    color: #FF9653;
+    margin-bottom: 40px;
+}
+.stayBook:hover{
+    color: white;
+    background: rgb(142, 216, 187);
+    border: none;
+    transition: 0.6s;
+}
