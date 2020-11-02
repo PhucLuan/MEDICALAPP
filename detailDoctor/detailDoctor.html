@@ -78,7 +78,7 @@
                         <p class="text-center">Gọi video</p>
                     </div>
                 </a>
-                <a href="#">
+                <a href="https://webmedicalcare.glitch.me/Inbox/Inbox.html">
                     <div class="mess">
                         <img src="./img/mess.png" class="img-fluid" alt="">
                         <p class="text-center">Nhắn tin</p>
@@ -110,15 +110,15 @@
             <div class="book">
                 <img src="./img/book.png" class="img-fluid" alt="">
                 <div class="buttonBook">
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">ĐẶT LỊCH HẸN</button>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Book1">ĐẶT LỊCH HẸN</button>
                 </div>
                 
             </div>
         </div>
     </div>
 </body>
-<!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<!-- Modal Hình thức khám -->
+<div class="modal fade" id="Book1" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -128,25 +128,196 @@
           </button>
         </div>
         <div class="modal-body">
-          <div class="selectStay">
-              <div class="stayBook">
-                  <img src="./img/clinic.png" alt="">
-                  <p>Tại phòng khám</p>
-              </div>
-              <div class="stayBook">
-                  <img src="./img/home.png" alt="">
-                  <p>Tại nhà</p>
-              </div>
-          </div>
-          <div class="buttonBook" style="position: static;">
-              <button>TIẾP THEO</button>
-          </div>
+            <div class="container">
+                <img src="./img/room.png" alt="">
+            <div class="selectStay">
+                <div class="stayBook">
+                    <img src="./img/clinic.png" alt="">
+                    <p>Tại phòng khám</p>
+                </div>
+                <div class="stayBook">
+                    <img src="./img/home.png" alt="">
+                    <p>Tại nhà</p>
+                </div>
+            </div>
+            <div class="buttonBook" style="position: static;"
+            type="button" class="btn btn-primary" data-toggle="modal" data-target="#Book2">
+                <button>TIẾP THEO</button>
+            </div>
+            </div>
         </div>
-        <div class="modal-footer">
+        <!-- <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <button type="button" class="btn btn-primary">Understood</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
+
+<!-- Modal thời gian khám -->
+<div class="modal fade" id="Book2" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title modal-title__examination" id="staticBackdropLabel">Thời gian khám</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="container">
+                <div class="calendar">
+                    <img src="./img/calendar.png" alt="">
+                </div>
+                <hr>
+                <div class="groupTime">
+                    <div class="TimeBook">
+                      <p>8:00-9:00</p>
+                    </div>
+                    <div class="TimeBook">
+                        <p>8:00-9:00</p>
+                    </div>
+                    <div class="TimeBook">
+                        <p>8:00-9:00</p>
+                    </div>
+                    <div class="TimeBook">
+                        <p>8:00-9:00</p>
+                    </div>
+                    <div class="TimeBook">
+                        <p>8:00-9:00</p>
+                    </div>
+                    <div class="TimeBook">
+                        <p>8:00-9:00</p>
+                    </div>
+                </div>
+                <div class="buttonBook" style="position: static;"
+                    type="button" class="btn btn-primary" data-toggle="modal" data-target="#Book3">
+                    <button>TIẾP THEO</button>
+                </div>
+            </div>
         </div>
       </div>
     </div>
   </div>
+
+<!-- Tình trạng & Mã giảm giá-->
+<div class="modal fade" id="Book3" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title modal-title__examination" id="staticBackdropLabel">Tình trạng & Mã giảm giá</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="modal-body">
+                <div class="container">
+                    <div class="contentStatus">
+                        <div class="status">
+                            <textarea name="" id="" cols="42" rows="8" placeholder="Tình trạng (Lí do khám)"></textarea>
+                        </div>
+                        <div class="promote">
+                            <input type="text" placeholder="Mã giảm giá">
+                            <button>Áp dụng</button>
+                        </div>
+                        <hr>
+                        <div class="rowfee">
+                            <p>Chi phí khám</p>
+                            <p>700.000 VNĐ</p>
+                        </div>
+                        <div class="rowfee">
+                            <p>Giảm</p>
+                            <p>50.000 VNĐ</p>
+                        </div>
+                        <div class="rowfee">
+                            <b>Tổng tiền</b>
+                            <b style="color: #FF9653;">650.000 VNĐ</b>
+                        </div>
+                    </div>
+                    <div class="buttonBook" style="position: static;"
+                        type="button" class="btn btn-primary" data-toggle="modal" data-target="#payment">
+                        <button>TIẾP THEO</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Hình thức thanh toán-->
+<div class="modal fade" id="payment" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title modal-title__examination" id="staticBackdropLabel">Hình thức thanh toán</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="modal-body">
+                <div class="container">
+                    <div class="calendar">
+                        <img src="./img/payMent.png" alt="">
+                    </div>
+                    <hr>
+                    <div class="groupPayment">
+                        <div class="typePay">
+                          <p>Tiền mặt</p>
+                        </div>
+                        <div class="typePay">
+                            <p>VISA</p>
+                        </div>
+                        <div class="typePay">
+                            <p>PAYPAL</p>
+                        </div>
+                        <div class="typePay">
+                            <p>MASTER CARD</p>
+                        </div>
+                    </div>
+                    <div class="buttonBook" style="position: static;"
+                        type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#payment1">
+                        <button>TIẾP THEO</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Modal Đặt lịch thành công-->
+<div class="modal fade" id="payment1" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title modal-title__examination" id="staticBackdropLabel">Đặt lịch thành công</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="modal-body">
+                <div class="container">
+                    <div class="iconSuccess">
+                        <img src="./img/iconSuccess.png" alt="">
+                    </div>
+                    <hr>
+                    <div class="infoFinal">
+                        <img src="./img/success1.png" class="img-fluid" alt="">
+                        <img src="./img/success2.png" class="img-fluid" alt="">
+                        <img src="./img/success3.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="buttonBook" style="position: static;"
+                        type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#payment">
+                        <button>ĐÃ BIẾT</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </html>

@@ -138,3 +138,81 @@
     border: none;
     transition: 0.6s;
 }
+.groupTime{
+    display: flex;
+    flex-wrap: wrap;
+}
+.TimeBook{
+    width: 87px;
+    height: 44px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #FF9653;
+    margin-right: 12px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.TimeBook p{
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+.TimeBook:hover{
+    background: #FF9653;
+    color: #FFFFFF;
+    transition: 0.6s;
+}
+.groupPayment{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.typePay{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #FF9653;
+    width: 145px;
+    height: 65px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 18px;
+    color: #FF9653;
+}
+.typePay p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.typePay:hover{
+    background: #FF9653;
+    color: #FFFFFF;
+    transition: 0.6s;
+}
+.iconSuccess,.infoFinal{
+    text-align: center;
+}
+.infoFinal img{
+    margin-bottom: 16px;
+}
+.rowfee{
+    display: flex;
+    justify-content: space-between;
+}
+.promote{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.promote button{
+    width: 87px;
+    height: 44px;
+    background: #FF9653;
+    border-radius: 8px;
+    border-style: none;
+    color: #FFFFFF;
+}
+.promote input{
+    border-radius: 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+}
