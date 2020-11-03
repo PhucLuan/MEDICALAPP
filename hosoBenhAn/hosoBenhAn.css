@@ -41,9 +41,6 @@
 .card-body{
     padding: 0 !important;
 }
-.scripMedical{
-    display: flex;
-}
 .btn.btn-primary{
     border-radius: 0;
     border: none;
@@ -65,4 +62,19 @@
 }
 .navMedical {
     margin-top: 30px;
+}
+.nav-tabs .nav-link{
+    width: 50%;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    background: #FFB98C !important;
+    color: #333333 !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 16px;
+}
+.nav-tabs:focus,.nav-link:focus,.nav-link.active{
+    background: #FF9653 !important;
+    color: #FFFFFF !important;
+    transition: 0.6s;
 }

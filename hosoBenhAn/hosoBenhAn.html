@@ -35,25 +35,21 @@
             </div>
         </div>
         <div class="contentMedical">
-            <div class="scripMedical">
-                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                  Thuốc đã dùng trước đây
-                </a>
-                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample1">
-                  Thuốc đang dùng hiện tại
-                </button>
-              </div>
-              <div class="collapse" id="collapseExample">
-                <div class="card card-body">
-                  <img src="./img/thuocDadung.png" class="img-fluid" alt="">
-                </div>
-              </div>
-              <div class="collapse" id="collapseExample1">
-                <div class="card card-body">
-                  <img src="./img/thuocDangdung1.png" class="img-fluid" alt="">
-                  <img src="./img/thuocDangdung2.png" class="img-fluid" alt="">
-                </div>
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Thuốc đã dùng</a>
+              <a class="nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Thuốc đang dùng</a>
             </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+              <img src="./img/thuocDadung.png" alt="">
+            </div>
+            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+              <img src="./img/thuocDangdung1.png" class="img-fluid" alt="">
+              <img src="./img/thuocDangdung2.png" class="img-fluid" alt="">
+            </div>
+          </div>
         </div>
     </div>
     <div class="container navMedical">

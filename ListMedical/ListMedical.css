@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+}
+.bgTitle{
+    height: 50px;
+    background: #90D9BC;
+    color: white;
+    font-size: 18px;
+    line-height: 16px;
+}
+.containerTitle{
+    margin-bottom: 17px;
+}
+.containerTitle > .Title{
+    text-align: center;
+    padding-top: 17px;
+}
+.Title ~ a{
+    position: absolute;
+    top: 17px;
+    width: 12.5px;
+    height: 20px;
+}
+.nav-tabs .nav-link{
+    width: 50%;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    border-bottom-color: #333333 !important;
+    color: #333333 !important;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+}
+.nav-tabs:focus,.nav-link:focus,.nav-link.active{
+    border-bottom-color: #FF9653 !important;
+    color: #FF9653 !important;
+    transition: 0.6s;
+}
+/*--------------------Doctor----------------*/
+.ListDoctor{
+    margin-top: 30px;
+}
+.detailhotCarosel{
+    width: 48%;
+    height: auto;
+
+    background: #FFFFFF;
+    box-shadow: 0px -1px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 16px;
+}
+.detailhotCarosel:hover{
+    background: linear-gradient(180deg, #90D9BC 0%, #6DCCA6 100%);
+    box-shadow: 0px -1px 20px rgba(0, 0, 0, 0.1);
+    color: white;
+    height: 150px;
+    transition: 0.6s ease-out;
+}
+.inforhotCarosel > p{
+    margin-bottom: 0px;
+}
+p > svg{
+    color: #FFB107;
+}
+.groupDoctor{
+    -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+    justify-content: space-between;
+}
+.page-item a{
+    color: #63BD99;
+}
+/*---------------------Hospital----------------------*/
+.ListHospital{
+    margin-top: 30px;
+}
+.detailHostpital{
+    width: 384px;
+    height: 170px;
+
+    background: #FFFFFF;
+    box-shadow: 0px -1px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+}
+.detailHostpital:hover{
+    background: linear-gradient(180deg, #90D9BC 0%, #6DCCA6 100%);
+    box-shadow: 0px -1px 20px rgba(0, 0, 0, 0.1);
+    color: white;
+    height: 180px;
+    transition: 0.6s ease-out;
+}
+.detailHostpital img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.inforhotCarosel p{
+    margin-bottom: 0;
+}
+.rowTime{
+    display: flex;
+    justify-content: space-between;
+}
+.day p,.time p{
+    margin-bottom: 0;
+    text-align: right;
+}
+.navigation{
+    display: flex;
+    padding-top: 9px;
+}
+.navigation > a{
+    width: 20%;
+    height: 50px;
+    background: white;
+    border: none;
+    text-align: center;
+    align-items: center;
+}
+.navMedical {
+    margin-top: 10px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #999999;
+}
+/*-----------------*/
+.AmountDoctor,.AmountHospital{
+    display: flex;
+}
+.AmountDoctor a{
+    margin-left: 70%;
+}
+.AmountHospital a{
+    margin-left: 66%;
+}
