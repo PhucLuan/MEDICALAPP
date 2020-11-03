@@ -95,7 +95,7 @@
     position: relative;
     top: -60px;
 }
-.buttonBook button{
+.buttonBook.btn-Final,.buttonBook button{
     width: 100%;
     background: linear-gradient(270deg, #69CAA3 0%, #90D9BC 100%);
     border-radius: 8px;
