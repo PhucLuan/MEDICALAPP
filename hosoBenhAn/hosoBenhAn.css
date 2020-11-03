@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+}
+.bgTitle{
+    height: 50px;
+    background: #90D9BC;
+    color: white;
+    font-size: 18px;
+    line-height: 16px;
+}
+.containerTitle{
+    margin-bottom: 17px;
+}
+.containerTitle > .Title{
+    text-align: center;
+    padding-top: 17px;
+}
+.Title ~ a{
+    position: absolute;
+    top: 17px;
+    width: 12.5px;
+    height: 20px;
+}
+.titleHistoryMedical{
+    margin-top: 15px;
+    color: #666666;
+}
+.inFo{
+    display: flex;
+    justify-content: space-between;
+}
+.detailInFo p{
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+.contentMedical{
+    margin-top: 45px;
+}
+.card-body{
+    padding: 0 !important;
+}
+.scripMedical{
+    display: flex;
+}
+.btn.btn-primary{
+    border-radius: 0;
+    border: none;
+    background: #FFB98C !important;
+}
+.btn.btn-primary:focus{
+    background: #FF9653 !important;
+}
+.navigation{
+    display: flex;
+}
+.navigation > a{
+    width: 20%;
+    height: 50px;
+    background: white;
+    border: none;
+    text-align: center;
+    align-items: center;
+}
+.navMedical {
+    margin-top: 30px;
+}

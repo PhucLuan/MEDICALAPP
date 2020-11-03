@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+}
+.bgTitle{
+    height: 50px;
+    background: #90D9BC;
+    color: white;
+    font-size: 18px;
+    line-height: 16px;
+}
+.containerTitle{
+    margin-bottom: 17px;
+}
+.containerTitle > .Title{
+    text-align: center;
+    padding-top: 17px;
+}
+.Title ~ a{
+    position: absolute;
+    top: 17px;
+    width: 12.5px;
+    height: 20px;
+}
+.grCardMedical{
+    margin-top: 21px;
+}
+.navigation{
+    display: flex;
+    padding-top: 9px;
+}
+.navigation > a{
+    width: 20%;
+    height: 50px;
+    background: white;
+    border: none;
+    text-align: center;
+    align-items: center;
+}
+.navMedical {
+    margin-top: 30px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #999999;;
+}

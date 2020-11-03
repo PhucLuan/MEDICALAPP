@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+}
+.bgTitle{
+    background: #90D9BC;
+    color: white;
+    font-size: 18px;
+    line-height: 16px;
+}
+.containerTitle{
+    margin-bottom: 17px;
+}
+.containerTitle > .Title{
+    text-align: center;
+    padding-top: 17px;
+}
+.Title ~ a{
+    position: absolute;
+    top: 17px;
+    width: 12.5px;
+    height: 20px;
+}
+.container_descript{
+    margin-top: 30px;
+}
+.card{
+    margin-bottom: 20px;
+    border: none !important;
+}
+.card-header{
+    background: #FFB98C;
+    box-sizing: border-box;
+    border-radius: 10px !important;
+    padding: 0 !important;
+}
+.btn-link{
+    background: #FFB98C !important;
+    color: #FFFFFF !important;
+    display: flex !important;
+    justify-content: space-between;
+}
+.btn-link:hover {
+    text-decoration: none !important;
+}
+.card-body{
+    margin-top: 16px;
+    border: 1px solid #FF9653;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.navigation{
+    display: flex;
+}
+.navigation > a{
+    width: 20%;
+    height: 50px;
+    background: white;
+    border: none;
+    text-align: center;
+    align-items: center;
+}
+.navMedical {
+    margin-top: 30px;
+}
