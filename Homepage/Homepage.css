@@ -62,7 +62,6 @@ body{
     background: linear-gradient(180deg, #90D9BC 0%, #6DCCA6 100%);
     box-shadow: 0px -1px 20px rgba(0, 0, 0, 0.1);
     color: white;
-    height: 150px;
     transition: 0.6s ease-out;
 }
 .inforhotCarosel > p{
@@ -81,7 +80,6 @@ p > svg{
     background: linear-gradient(180deg, #90D9BC 0%, #6DCCA6 100%);
     box-shadow: 0px -1px 20px rgba(0, 0, 0, 0.1);
     color: white;
-    height: 260px;
     transition: 0.6s ease-out;
 }
 .navigation{
@@ -94,3 +92,23 @@ p > svg{
     border: none;
     text-align: center;
 }
+.contenthotCarosel p,.contentService p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+a{
+    color: #FF9653 !important;
+}
+.inforhotCarosel a{
+    color: black !important;
+}
+.detailhotCarosel .inforhotCarosel:hover a{
+    color: #FFFFFF !important;
+}
+.inforhotCarosel a:hover{
+    color: #FF9653 !important;
+    text-decoration: none;
+}
+

@@ -104,12 +104,12 @@
     color: white;
 }
 .containerInfo{
-    height: 781px;
+    height: 730px;
 }
 .book{
     position: sticky;
-    margin-top: -400px;
-    top: 430px;
+    margin-top: -250px;
+    top: 580px;
 }
 .modal-title__examination{
     font-size: 20px;
@@ -170,7 +170,7 @@
     border-radius: 10px;
     border-style: solid;
     border-color: #FF9653;
-    width: 145px;
+    width: 48%;
     height: 65px;
     margin-bottom: 20px;
     text-align: center;

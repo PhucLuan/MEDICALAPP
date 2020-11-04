@@ -1,9 +1,6 @@
 *{
     margin: 0;
 }
-body{
-    height: 990px;
-}
 .bgTitle{
     height: 50px;
     background: #90D9BC;
@@ -42,6 +39,10 @@ body{
     height: 150px;
     transition: 0.6s ease-out;
 }
+.detailhotCarosel:hover a{
+    color: #FFFFFF !important;
+    transition: 0.6s ease-out;
+}
 .inforhotCarosel > p{
     margin-bottom: 0px;
 }
@@ -73,8 +74,10 @@ p > svg{
     border: none;
     text-align: center;
 }
-.navMedical {
-    position: sticky;
-    margin-top: -500px;
-    top: 490px;
+a{
+    color: black !important;
+    text-decoration: none !important;
+}
+a:hover{
+    color: #FFB107 !important;
 }
