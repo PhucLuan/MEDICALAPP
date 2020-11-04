@@ -54,6 +54,14 @@
     padding-right: 12px;
     margin-bottom: 15PX;
 }
+.eleInfo:hover{
+    background: #90D9BC;
+    transition: 0.6s;
+}
+.eleInfo .descripInfo:hover p{
+    color: #FFFFFF !important;
+    transition: 0.6s;
+}
 .iconInfo{
     background: #63BD99;
     border-radius: 5px;
@@ -84,4 +92,11 @@
 }
 .navMedical {
     margin-top: 30px;
+}
+a{
+    color: #333333 !important;
+    text-decoration: none !important;
+}
+a:hover{
+    color: #FF9653 !important;
 }
