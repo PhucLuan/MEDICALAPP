@@ -1,0 +1,107 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* BGTOP */
+.bgTop {
+    background-image: url("./img/Rectangle 639.png");
+    height: 256px;
+}
+.containerHeader {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bgTop img {
+    width: 100%;
+}
+.bgTop p {
+    font-family: Saira Stencil One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: white;
+}
+
+/* FORM SIGNIN  */
+.detailSignin {
+    position: relative;
+    top: -50px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffffff;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    padding: 20px;
+}
+.signin_items {
+    position: relative;
+    margin-bottom: 20px;
+}
+.phone button {
+    position: absolute;
+    right: 0;
+    margin: 4px;
+    padding: 9px 14px;
+    font-size: 13px;
+    color: white;
+    background: #63bd99;
+    border-radius: 5px;
+    border: none;
+}
+.chooseCity {
+    margin-bottom: 0;
+}
+.signin_items input,
+.signin_items select {
+    border: 1px solid #c4c4c4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 100%;
+    height: 44px;
+}
+.signin_items input:hover,
+.signin_items select:hover {
+    border: 1px solid #469e7b;
+}
+.signin_items label {
+    position: absolute;
+    top: -9px;
+    font-size: 13px;
+    left: 6px;
+    background: white;
+    padding: 2px;
+    color: #999999;
+}
+
+/* FORM BTN  */
+.containerBtn .btnSignin button {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    background: linear-gradient(270deg, #69caa3 0%, #90d9bc 100%);
+    border-radius: 8px;
+    height: 44px;
+    color: white;
+    outline: none;
+    border: none;
+}
+.containerBtn .account p {
+    margin-top: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    color: #333333;
+}
+.containerBtn .account a {
+    color: #63bd99;
+    font-weight: 500;
+    padding-left: 5px;
+}
