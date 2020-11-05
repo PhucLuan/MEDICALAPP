@@ -29,11 +29,24 @@
     box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,.1);
     margin: 0 .25em;
 }
+.Skips{
+    width: 90px;
+    height: 40px;
+    background: linear-gradient(270deg, #69CAA3 0%, #90D9BC 100%);
+    border-radius: 100px;
+    position: relative;
+    bottom: 50px;
+    margin-left: 38%;
+    padding-top: 5px;
+}
 .Skip{
     z-index: 2;
     font-size: 14px;
     line-height: 18px;
-    color: #999999;
-    position: relative;
-    bottom: 40px;
+    color: #FFFFFF;
 }
+@media only screen and (max-width: 375px) {
+    .Skips {
+      margin-left: 37%;
+    }
+  }
