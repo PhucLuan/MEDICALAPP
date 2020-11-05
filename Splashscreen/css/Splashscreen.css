@@ -9,7 +9,7 @@
     list-style: none;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    bottom: 82px;
+    bottom: 15%;
 }
 .slider__bullet[class*=active] {
     background-color:#63BD99;
@@ -35,7 +35,7 @@
     background: linear-gradient(270deg, #69CAA3 0%, #90D9BC 100%);
     border-radius: 100px;
     position: relative;
-    bottom: 50px;
+    bottom: 70px;
     margin-left: 38%;
     padding-top: 5px;
 }
