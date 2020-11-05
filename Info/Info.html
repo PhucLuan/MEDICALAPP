@@ -12,6 +12,7 @@
 <!-- jQuery and JS bundle w/ Popper.js -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <div class="bgTitle">
@@ -29,19 +30,22 @@
         <div class="detailInfo">
             <div class="eleInfo">
                 <label>HỌ TÊN</label>
-                <input type="text">
+                <input type="text" value="Hứa Nguyễn Thanh Nguyên">
             </div>
             <div class="eleInfo">
                 <label>EMAIL</label>
-                <input type="text">
+                <input type="text" value="nguyenhnt2110@gmail.com">
             </div>
             <div class="eleInfo">
                 <label>SỐ ĐIỆN THOẠI</label>
-                <input type="text">
+                <input type="text" value="0909217052">
             </div>
             <div class="eleInfo">
                 <label>NGÀY SINH</label>
-                <input type="text">
+                <input type="date" id="datePicker">
+                <script>
+                    document.getElementById('datePicker').valueAsDate = new Date();
+                </script>
             </div>
             <div class="eleInfo">
                 <label>GIỚI TÍNH</label>
@@ -52,19 +56,19 @@
             </div>
             <div class="eleInfo">
                 <label>TỈNH / THÀNH</label>
-                <input type="text">
+                <input type="text" value="Hồ Chí Minh">
             </div>
             <div class="eleInfo">
                 <label>QUẬN / HUYỆN</label>
-                <input type="text">
+                <input type="text" value="Quận 1">
             </div>
             <div class="eleInfo">
                 <label>PHƯỜNG / XÃ</label>
-                <input type="text">
+                <input type="text" value="Phường Đa Kao">
             </div>
             <div class="eleInfo">
                 <label>ĐỊA CHỈ NHÀ</label>
-                <input type="text">
+                <input type="text" value="54 Nguyễn Văn Thủ">
             </div>
         </div>
         <div class="btnUpdate">
