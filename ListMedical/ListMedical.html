@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./ListMedical.css">
+    <link rel="stylesheet" href="./filter.css">
 
     <!-- CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -30,7 +31,7 @@
           <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                 <section class="container ListDoctor">
-                    <p class="AmountDoctor"><b>1000 Bác sĩ</b> <a href=""><img src="./img/iconFilter.png" alt=""></a></p>
+                    <p class="AmountDoctor"><b>1000 Bác sĩ</b> <a type="button" data-toggle="modal" data-target="#filter"><img src="./img/iconFilter.png" alt=""></a></p>
                     <div class="ListInfo">
                         <div class="groupDoctor">
                             <div class="detailhotCarosel">
@@ -351,4 +352,104 @@
         </div>
     </div>
 </body>
+<!-- Modal -->
+<div class="modal fade" id="filter" data-backdrop="static" data-keyboard="false" tabindex="-1"
+aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header mt-1">
+            <h5 class="modal-title" id="staticBackdropLabel">Lọc kết quả</h5>
+        </div>
+        <div class="modal-body">
+            <div class="filter__content">
+                <div class="filter_items chooseSpecialize">
+                    <label>Chuyên môn</label>
+                    <select name="specialize" id="">
+                        <option value="nhk">Nhi khoa</option>
+                        <option value="tm">Tim mạch</option>
+                        <option value="nk">Nha khoa</option>
+                        <option value="km">Khám mắt</option>
+                        <option value="ut">Ung thư</option>
+                    </select>
+                </div>
+                <div class="filter_items filter__small">
+                    <label>Kinh nghiệm</label>
+                    <div class="container filter__smallest mr-0">
+                        <div class="items">
+                            <p>0-5</p>
+                        </div>
+                        <div class="items">
+                            <p>5-10</p>
+                        </div>
+                        <div class="items">
+                            <p>10-15</p>
+                        </div>
+                        <div class="col items">
+                            <p>15+</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter_items filter__small star">
+                    <label>Đánh giá</label>
+                    <div class="container filter__smallest mr-0">
+                        <div class="items">
+                            <p>1-3sao</p>
+                        </div>
+                        <div class="items">
+                            <p>3-4sao</p>
+                        </div>
+                        <div class="items">
+                            <p>4-5sao</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter_items filter__small time">
+                    <label>Thời gian làm việc</label>
+                    <div class="container filter__smallest d-block mr-0">
+                        <div class="d-flex">
+                            <div class="items">
+                                <p>7:00 - 10:00</p>
+                            </div>
+                            <div class="items">
+                                <p>12:00 - 16:00</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-3">
+                            <div class="items">
+                                <p>17:00 - 21:00</p>
+                            </div>
+                            <div class="items">
+                                <p>22:00 - 00:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter_items chooseCity">
+                    <label>Tỉnh / Thành</label>
+                    <select name="city" id="">
+                        <option value="hcm">Hồ Chí Minh</option>
+                        <option value="dn">Đà Nẵng</option>
+                        <option value="hn">Hà Nội</option>
+                    </select>
+                </div>
+                <div class="filter_items chooseDistric">
+                    <label>Quận / Huyện</label>
+                    <select name="distric" id="">
+                        <option value="tb">Tân Bình</option>
+                        <option value="q10">Quận 10</option>
+                        <option value="q1">Quận 1</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="modal-footer mb-3">
+                <button type="button" class="btn resetBtn" data-dismiss="modal">ĐẶT LẠI</button>
+                <button type="button" class="btn submitBtn">ÁP DỤNG</button>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
 </html>
