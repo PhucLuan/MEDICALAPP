@@ -62,7 +62,7 @@ p > svg{
     justify-content: space-between;
 }
 .page-item a{
-    color: #63BD99;
+    color: #63BD99 !important;
 }
 .navigation{
     display: flex;
