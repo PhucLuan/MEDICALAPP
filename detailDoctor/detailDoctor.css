@@ -83,6 +83,7 @@
 .stay,.time{
     display: flex;
     align-items: center;
+    margin-bottom: 10px;
 }
 .stay p,.time p{
     margin-bottom: 0;
@@ -107,9 +108,10 @@
     height: 730px;
 }
 .book{
-    position: sticky;
-    margin-top: -250px;
-    top: 580px;
+    overflow: hidden;
+    position: fixed;
+    bottom: -40px;
+    width: 100%;
 }
 .modal-title__examination{
     font-size: 20px;

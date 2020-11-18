@@ -89,9 +89,17 @@
     border: none;
     text-align: center;
     align-items: center;
+    padding-top: 10px;
 }
 .navMedical {
-    margin-top: 30px;
+    margin-top: 10px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #EAEAEA;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 a{
     color: #333333 !important;
