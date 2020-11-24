@@ -1,7 +1,10 @@
 .slider__bullets {
-    position: absolute;
+    /* position: absolute; */
     z-index: 2;
-    bottom: 1.5rem;
+    overflow: hidden;
+  position: fixed;
+  /* bottom: 0; */
+    /* bottom: 1.5rem; */
     left: 50%;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -34,8 +37,8 @@
     height: 40px;
     background: linear-gradient(270deg, #69CAA3 0%, #90D9BC 100%);
     border-radius: 100px;
-    position: relative;
-    bottom: 70px;
+    /* position: relative;
+    bottom: 70px; */
     margin-left: 38%;
     padding-top: 5px;
 }
@@ -44,6 +47,11 @@
     font-size: 14px;
     line-height: 18px;
     color: #FFFFFF;
+}
+.containerSkip{
+    overflow: hidden;
+    position: fixed;
+    bottom: 3%;
 }
 @media only screen and (max-width: 375px) {
     .Skips {
